@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		918073EE23503F0800B357EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918073ED23503F0800B357EF /* AppDelegate.swift */; };
+		918073F623503F0800B357EF /* JenkinsRefactoredApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 918073F423503F0800B357EF /* JenkinsRefactoredApp.xcdatamodeld */; };
+		918073F823503F0B00B357EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918073F723503F0B00B357EF /* Assets.xcassets */; };
+		918073FB23503F0B00B357EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918073F923503F0B00B357EF /* LaunchScreen.storyboard */; };
+		918074082350416200B357EF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918074072350416200B357EF /* TableViewController.swift */; };
+		9180740A2353A46A00B357EF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918074092353A46A00B357EF /* TableViewCell.swift */; };
+		9180740C23544E4400B357EF /* JenkinsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180740B23544E4400B357EF /* JenkinsModels.swift */; };
+		9180740E23544E6600B357EF /* JenkinsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9180740D23544E6600B357EF /* JenkinsApi.swift */; };
+		91D5A5952354816E001F1277 /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5A5942354816E001F1277 /* JobTableViewCell.swift */; };
+		91D5A59923564B54001F1277 /* DetailedPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5A59823564B54001F1277 /* DetailedPageViewController.swift */; };
+		91D5A59B235702B0001F1277 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5A59A235702B0001F1277 /* PageViewController.swift */; };
+		91D5A59F23576BA6001F1277 /* DetailedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5A59E23576BA6001F1277 /* DetailedViewCell.swift */; };
+		91D5A5A12359F02A001F1277 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5A5A02359F02A001F1277 /* WebViewController.swift */; };
+		A90D039FED034DCD1F6B2B16 /* Pods_JenkinsRefactoredApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD19F90E0E808BA9DF315807 /* Pods_JenkinsRefactoredApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		153D95DAE3A08D50265922B2 /* Pods-JenkinsRefactoredApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsRefactoredApp.debug.xcconfig"; path = "Target Support Files/Pods-JenkinsRefactoredApp/Pods-JenkinsRefactoredApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7FEBC00F69D7FFF9085F1110 /* Pods-JenkinsRefactoredApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsRefactoredApp.release.xcconfig"; path = "Target Support Files/Pods-JenkinsRefactoredApp/Pods-JenkinsRefactoredApp.release.xcconfig"; sourceTree = "<group>"; };
+		918073EA23503F0800B357EF /* JenkinsRefactoredApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsRefactoredApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		918073ED23503F0800B357EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		918073F523503F0800B357EF /* JenkinsRefactoredApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JenkinsRefactoredApp.xcdatamodel; sourceTree = "<group>"; };
+		918073F723503F0B00B357EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		918073FA23503F0B00B357EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		918073FC23503F0B00B357EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		918074072350416200B357EF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		918074092353A46A00B357EF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		9180740B23544E4400B357EF /* JenkinsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsModels.swift; sourceTree = "<group>"; };
+		9180740D23544E6600B357EF /* JenkinsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsApi.swift; sourceTree = "<group>"; };
+		91D5A5942354816E001F1277 /* JobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTableViewCell.swift; sourceTree = "<group>"; };
+		91D5A59823564B54001F1277 /* DetailedPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedPageViewController.swift; sourceTree = "<group>"; };
+		91D5A59A235702B0001F1277 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		91D5A59E23576BA6001F1277 /* DetailedViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewCell.swift; sourceTree = "<group>"; };
+		91D5A5A02359F02A001F1277 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		FD19F90E0E808BA9DF315807 /* Pods_JenkinsRefactoredApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JenkinsRefactoredApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		918073E723503F0800B357EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90D039FED034DCD1F6B2B16 /* Pods_JenkinsRefactoredApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2156F1B5B54FE94DFED8204C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD19F90E0E808BA9DF315807 /* Pods_JenkinsRefactoredApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		918073E123503F0700B357EF = {
+			isa = PBXGroup;
+			children = (
+				918073EC23503F0800B357EF /* JenkinsRefactoredApp */,
+				918073EB23503F0800B357EF /* Products */,
+				E3C86E873514DA1F28F782FD /* Pods */,
+				2156F1B5B54FE94DFED8204C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		918073EB23503F0800B357EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				918073EA23503F0800B357EF /* JenkinsRefactoredApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		918073EC23503F0800B357EF /* JenkinsRefactoredApp */ = {
+			isa = PBXGroup;
+			children = (
+				918074052350412E00B357EF /* controllers */,
+				918074042350412A00B357EF /* views */,
+				918074032350412500B357EF /* models */,
+				918074022350411F00B357EF /* cells */,
+				918073ED23503F0800B357EF /* AppDelegate.swift */,
+				918073F723503F0B00B357EF /* Assets.xcassets */,
+				918073F923503F0B00B357EF /* LaunchScreen.storyboard */,
+				918073FC23503F0B00B357EF /* Info.plist */,
+				918073F423503F0800B357EF /* JenkinsRefactoredApp.xcdatamodeld */,
+				9180740D23544E6600B357EF /* JenkinsApi.swift */,
+			);
+			path = JenkinsRefactoredApp;
+			sourceTree = "<group>";
+		};
+		918074022350411F00B357EF /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				918074092353A46A00B357EF /* TableViewCell.swift */,
+				91D5A5942354816E001F1277 /* JobTableViewCell.swift */,
+				91D5A59E23576BA6001F1277 /* DetailedViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		918074032350412500B357EF /* models */ = {
+			isa = PBXGroup;
+			children = (
+				9180740B23544E4400B357EF /* JenkinsModels.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		918074042350412A00B357EF /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		918074052350412E00B357EF /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				918074072350416200B357EF /* TableViewController.swift */,
+				91D5A59823564B54001F1277 /* DetailedPageViewController.swift */,
+				91D5A59A235702B0001F1277 /* PageViewController.swift */,
+				91D5A5A02359F02A001F1277 /* WebViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		E3C86E873514DA1F28F782FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				153D95DAE3A08D50265922B2 /* Pods-JenkinsRefactoredApp.debug.xcconfig */,
+				7FEBC00F69D7FFF9085F1110 /* Pods-JenkinsRefactoredApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		918073E923503F0800B357EF /* JenkinsRefactoredApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918073FF23503F0B00B357EF /* Build configuration list for PBXNativeTarget "JenkinsRefactoredApp" */;
+			buildPhases = (
+				BA3CA9D066572E45E9B622CA /* [CP] Check Pods Manifest.lock */,
+				918073E623503F0800B357EF /* Sources */,
+				918073E723503F0800B357EF /* Frameworks */,
+				918073E823503F0800B357EF /* Resources */,
+				F5E835EB528D784173F22AD4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JenkinsRefactoredApp;
+			productName = JenkinsRefactoredApp;
+			productReference = 918073EA23503F0800B357EF /* JenkinsRefactoredApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		918073E223503F0700B357EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Mihail Tumakov";
+				TargetAttributes = {
+					918073E923503F0800B357EF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 918073E523503F0700B357EF /* Build configuration list for PBXProject "JenkinsRefactoredApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 918073E123503F0700B357EF;
+			productRefGroup = 918073EB23503F0800B357EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				918073E923503F0800B357EF /* JenkinsRefactoredApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		918073E823503F0800B357EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918073FB23503F0B00B357EF /* LaunchScreen.storyboard in Resources */,
+				918073F823503F0B00B357EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA3CA9D066572E45E9B622CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JenkinsRefactoredApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E835EB528D784173F22AD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JenkinsRefactoredApp/Pods-JenkinsRefactoredApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JenkinsRefactoredApp/Pods-JenkinsRefactoredApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JenkinsRefactoredApp/Pods-JenkinsRefactoredApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		918073E623503F0800B357EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9180740A2353A46A00B357EF /* TableViewCell.swift in Sources */,
+				91D5A5A12359F02A001F1277 /* WebViewController.swift in Sources */,
+				9180740E23544E6600B357EF /* JenkinsApi.swift in Sources */,
+				91D5A59F23576BA6001F1277 /* DetailedViewCell.swift in Sources */,
+				91D5A59B235702B0001F1277 /* PageViewController.swift in Sources */,
+				91D5A59923564B54001F1277 /* DetailedPageViewController.swift in Sources */,
+				9180740C23544E4400B357EF /* JenkinsModels.swift in Sources */,
+				918073F623503F0800B357EF /* JenkinsRefactoredApp.xcdatamodeld in Sources */,
+				918073EE23503F0800B357EF /* AppDelegate.swift in Sources */,
+				918074082350416200B357EF /* TableViewController.swift in Sources */,
+				91D5A5952354816E001F1277 /* JobTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		918073F923503F0B00B357EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				918073FA23503F0B00B357EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		918073FD23503F0B00B357EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		918073FE23503F0B00B357EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9180740023503F0B00B357EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153D95DAE3A08D50265922B2 /* Pods-JenkinsRefactoredApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsRefactoredApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Home.JenkinsRefactoredApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9180740123503F0B00B357EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FEBC00F69D7FFF9085F1110 /* Pods-JenkinsRefactoredApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsRefactoredApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Home.JenkinsRefactoredApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		918073E523503F0700B357EF /* Build configuration list for PBXProject "JenkinsRefactoredApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918073FD23503F0B00B357EF /* Debug */,
+				918073FE23503F0B00B357EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		918073FF23503F0B00B357EF /* Build configuration list for PBXNativeTarget "JenkinsRefactoredApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9180740023503F0B00B357EF /* Debug */,
+				9180740123503F0B00B357EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		918073F423503F0800B357EF /* JenkinsRefactoredApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				918073F523503F0800B357EF /* JenkinsRefactoredApp.xcdatamodel */,
+			);
+			currentVersion = 918073F523503F0800B357EF /* JenkinsRefactoredApp.xcdatamodel */;
+			path = JenkinsRefactoredApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 918073E223503F0700B357EF /* Project object */;
+}
